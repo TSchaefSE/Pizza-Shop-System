@@ -18,7 +18,7 @@ public class ReportGenerator {
 
     // Helper method to get user's name by accountId
     private static String getUserNameByAccountId(int accountId) throws IOException {
-        String accountsContent = Files.readString(Paths.get("data_files/users.json"));
+        String accountsContent = Files.readString(Paths.get("data_files/Users.json"));
         JSONObject accountsRoot = new JSONObject(accountsContent);
         JSONArray usersArray = accountsRoot.getJSONArray("users");
 
@@ -35,7 +35,7 @@ public class ReportGenerator {
     // Read orders within a date range
     public static List<JSONObject> readOrders(LocalDate startDate, LocalDate endDate) throws IOException {
         List<JSONObject> matchingOrders = new ArrayList<>();
-        String content = Files.readString(Paths.get("data_files/orders.json"));
+        String content = Files.readString(Paths.get("data_files/Orders.json"));
         JSONObject root = new JSONObject(content);
         JSONArray ordersArray = root.getJSONArray("orders");
 
