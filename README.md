@@ -6,7 +6,7 @@ application state management, and interactive UI workflows in a multi-screen
 desktop application.
 
 My contributions focused primarily on backend order processing, application state
-correctness, and dynamic UI integration (including items such as the pizza customization workflow).
+correctness, and dynamic UI integration (including complex UI workflows such as the pizza customization screen).
 
 ---
 
@@ -40,8 +40,8 @@ correctness, and dynamic UI integration (including items such as the pizza custo
 
 - ReportGenerator  
   Aggregates persisted order data to generate daily and weekly reports.
-  This component was fully designed and implemented by me, including
-  data aggregation logic and edge-case handling.
+  I was responsible for the design and implementation of this component,
+  including data aggregation logic and edge-case handling.
 
 ### UI Layer
 - JavaFX controllers manage user interaction across multiple screens
@@ -71,7 +71,7 @@ Backend and State Management:
 - Ensured accurate subtotal, tax, and total calculations throughout the order flow.
 - Worked on JSON-based persistence and handled edge cases such as empty or
   duplicated orders.
-- Contributed to reporting and receipt generation by aggregating saved order data.
+- Integrated reporting output into the broader application workflow and UI.
 
 UI and Controller Work:
 - Designed and implemented interactive JavaFX screens, including the Customize
