@@ -47,9 +47,9 @@ application state management, and system-level debugging.
   I was responsible for the design and implementation of this component,
   including data aggregation logic and edge-case handling.
 
-  ![Report Generator Screen](docs/report_generator.png)
+![Report Generator Screen](docs/report_generator.png)
 
-  Example of the reporting interface backed by aggregate order data
+Example of the reporting interface backed by aggregate order data
 
 ### UI Layer
 - JavaFX controllers manage user interaction across multiple screens
