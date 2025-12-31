@@ -1,16 +1,15 @@
 # Pizza Shop System (Team Project)
 
-A JavaFX-based pizza shop application built as a collaborative academic project.  
 This repository is preserved as a portfolio artifact, demonstrating backend logic,
 application state management, and interactive UI workflows in a multi-screen
 desktop application.
 
+This was my first large-scale, multi-screen application project and is included
+to illustrate early experience with backend logic, application state management,
+and system-level debugging.
+
 My contributions focused primarily on backend order processing, application state
 correctness, and dynamic UI integration (including complex UI workflows such as the pizza customization screen).
-
-This was my first large-scale, multi-screen application project and is preserved
-as a portfolio artifact to illustrate early experience with backend logic,
-application state management, and system-level debugging.
 
 ---
 
@@ -49,7 +48,7 @@ application state management, and system-level debugging.
 
 ![Report Generator Screen](docs/report_generator.png)
 
-Example of the reporting interface backed by aggregate order data
+Example of the reporting interface backed by aggregated order data
 
 ### UI Layer
 - JavaFX controllers manage user interaction across multiple screens
