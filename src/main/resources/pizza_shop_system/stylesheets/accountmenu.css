@@ -1,0 +1,43 @@
+.AccountMenu Button {
+    -fx-pref-width: 150px;
+    -fx-pref-height: 15px;
+    -fx-background-color: #f5f5f5;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-color: #bdbdbd;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.account-menu-manager-button {
+    -fx-pref-width: 210px;
+}
+
+.AccountMenu Label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+
+.account-menu-title {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+}
+
+.account-menu-subtitle {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.account-menu-text-field {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 15px;
+    -fx-background-color: white;
+    -fx-border-color: #bdbdbd;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+}

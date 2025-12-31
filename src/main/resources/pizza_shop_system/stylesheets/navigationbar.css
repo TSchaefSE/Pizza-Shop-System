@@ -1,0 +1,33 @@
+/* Navigation Bar */
+.navigation-bar {
+    -fx-background-color: #993131;
+    -fx-spacing: 0px;
+    -fx-padding: 1px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.5), 10, 0, 0, 5);
+}
+
+.navButton {
+    -fx-background-color: #993131;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-text-transform: uppercase;
+    -fx-font-family: "Impact";
+    -fx-border-radius: 0px;
+    -fx-background-radius: 0px;
+    -fx-border-color: transparent;
+    -fx-padding: 0 10;
+    -fx-cursor: hand;
+    -fx-pref-height: 100;
+}
+
+#buttonForward {
+    -fx-background-color: #993131;
+    -fx-text-fill: white;
+}
+
+#buttonForward:hover {
+    -fx-background-color: #662121;
+}
+.navButton:hover {
+    -fx-background-color: #662121;
+}

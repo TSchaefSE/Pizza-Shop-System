@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pizza_shop_system.gui.account.ManageAccountsController">
+   <children>
+      <VBox alignment="CENTER" fillWidth="false" prefHeight="691.0" prefWidth="715.0" spacing="10.0">
+         <children>
+            <Label styleClass="manage-accounts-title" text="Manage Accounts" />
+      
+              <!-- Scroll Pane -->
+              <ScrollPane fitToWidth="true" prefHeight="500.0" prefWidth="760.0" styleClass="accounts-scroll-pane">
+                  <content>
+                      <!-- VBox to Display Accounts -->
+                      <VBox fx:id="accountsVBox" maxWidth="1.7976931348623157E308" spacing="10" styleClass="accounts-container" />
+                  </content>
+              </ScrollPane>
+         </children>
+      </VBox>
+   </children>
+</StackPane>

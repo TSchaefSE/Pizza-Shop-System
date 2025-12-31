@@ -1,0 +1,10 @@
+.GenerateReceipts ToggleButton {
+    -fx-background-color: #f5f5f5;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-color: #bdbdbd;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}

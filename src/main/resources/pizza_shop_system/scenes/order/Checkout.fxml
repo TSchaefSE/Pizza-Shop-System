@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="533.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pizza_shop_system.gui.order.CheckoutController">
+   <children>
+   
+          <!-- Title -->
+       <Label styleClass="checkout-title" text="Checkout" />
+      <GridPane alignment="CENTER" hgap="15" prefHeight="471.0" prefWidth="600.0" styleClass="checkout-root" vgap="15">
+      
+          <!-- Total Amount -->
+          <Label styleClass="checkout-label" text="Total:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+          <Label fx:id="totalLabel" styleClass="checkout-value" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      
+          <!-- Payment Method -->
+          <Label styleClass="checkout-label" text="Payment Method:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+          <ComboBox fx:id="paymentMethodComboBox" promptText="Select Payment Method" styleClass="checkout-combo-box" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      
+          <!-- Card Credentials -->
+          <Label fx:id="cardNumberLabel" styleClass="checkout-label" text="Card Number:" visible="false" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+          <TextField fx:id="cardNumberField" promptText="Enter Card Number" styleClass="checkout-textfield" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      
+          <Label fx:id="cvvLabel" styleClass="checkout-label" text="CVV:" visible="false" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+          <TextField fx:id="cvvField" promptText="Enter CVV" styleClass="checkout-textfield" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      
+          <Label fx:id="expirationLabel" styleClass="checkout-label" text="Expiration Date (MM/YY):" visible="false" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+          <TextField fx:id="expirationDateField" promptText="MM/YY" styleClass="checkout-textfield" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+      
+          <!-- Check Payment -->
+          <Label fx:id="checkNumberLabel" styleClass="checkout-label" text="Check Number:" visible="false" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+          <TextField fx:id="checkNumberField" promptText="Enter Check Number" styleClass="checkout-textfield" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+      
+          <!-- Delivery or Pickup Option -->
+          <Label styleClass="checkout-label" text="Order Type:" GridPane.columnIndex="0" GridPane.rowIndex="7" />
+          <HBox spacing="10" GridPane.columnIndex="1" GridPane.rowIndex="7">
+              <RadioButton fx:id="deliveryRadioButton" styleClass="checkout-radio-button" text="Delivery" />
+              <RadioButton fx:id="pickupRadioButton" styleClass="checkout-radio-button" text="Pickup" />
+          </HBox>
+      
+          <!-- Address Input (Visible only if Delivery is selected) -->
+          <Label fx:id="addressLabel" styleClass="checkout-label" text="Delivery Address:" visible="false" GridPane.columnIndex="0" GridPane.rowIndex="8" />
+          <TextField fx:id="addressField" promptText="Enter Delivery Address" styleClass="checkout-textfield" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+         <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
+      </GridPane>
+   
+          <!-- Confirm Button -->
+       <Button fx:id="confirmButton" styleClass="checkout-confirm-order-button" text="CONFIRM ORDER" />
+   </children>
+</VBox>

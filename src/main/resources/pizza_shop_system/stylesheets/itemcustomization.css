@@ -1,0 +1,64 @@
+.customize-title {
+    -fx-font-size: 30px;
+    -fx-font-weight: Bold;
+}
+
+.customize-subtitle {
+    -fx-font-size: 20px;
+    -fx-font-weight: Bold;
+}
+
+.customize-checkbox {
+    -fx-pref-width: 120px;
+    -fx-pref-height: 12px;
+    -fx-background-color: #f5f5f5;
+    -fx-border-color: #bdbdbd;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-padding: 5px;
+}
+
+.customize-checkbox:selected {
+    -fx-background-color: #bdbdbd;
+    -fx-text-fill: white;
+}
+
+.customize-button {
+    -fx-pref-width: 100px;
+    -fx-pref-height: 30px;
+    -fx-background-color: #f5f5f5;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-color: #bdbdbd;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.customize-add-to-order-button {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 50px;
+    -fx-background-color: #993131;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.customize-dropdown {
+    -fx-background-color: #f5f5f5;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-color: #bdbdbd;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 30px;
+}

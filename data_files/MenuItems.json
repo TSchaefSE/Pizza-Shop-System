@@ -1,0 +1,277 @@
+{
+  "nextMenuItemId": 37,
+  "items": {
+    "pizza": [
+      {
+        "menuItemId": 1,
+        "name": "Cheese Pizza",
+        "pizzaSize": "medium",
+        "crust": "regular",
+        "toppings": []
+      },
+      {
+        "menuItemId": 2,
+        "name": "Pepperoni Pizza",
+        "pizzaSize": "medium",
+        "toppings": ["pepperoni"],
+        "crust": "regular"
+      },
+      {
+        "menuItemId": 3,
+        "name": "Supreme Pizza",
+        "pizzaSize": "medium",
+        "toppings": [
+          "sausage",
+          "bellpepper",
+          "onion",
+          "pepperoni"
+        ],
+        "crust": "regular"
+      },
+      {
+        "menuItemId": 4,
+        "name": "BBQ Chicken Pizza",
+        "pizzaSize": "medium",
+        "toppings": [
+          "chicken",
+          "bacon"
+        ],
+        "crust": "regular"
+      },
+      {
+        "menuItemId": 5,
+        "name": "Veggie Pizza",
+        "pizzaSize": "medium",
+        "toppings": [
+          "bellpepper",
+          "tomato",
+          "onion"
+        ],
+        "crust": "regular"
+      },
+      {
+        "menuItemId": 6,
+        "name": "Hawaiian Pizza",
+        "pizzaSize": "medium",
+        "toppings": [
+          "ham"
+        ],
+        "crust": "regular"
+      },
+      {
+        "menuItemId": 13,
+        "name": "Meat Lovers Pizza",
+        "pizzaSize": "medium",
+        "toppings": ["pepperoni", "sausage", "bacon", "ham"],
+        "crust": "regular"
+      },
+      {
+        "menuItemId": 14,
+        "name": "Spicy Jalapeño Pizza",
+        "pizzaSize": "medium",
+        "toppings": ["jalapeno", "pepperoni", "onion"],
+        "crust": "regular"
+      },
+      {
+        "menuItemId": 15,
+        "name": "Garlic Parmesan Pizza",
+        "pizzaSize": "medium",
+        "toppings": ["garlic", "extracheese"],
+        "crust": "regular"
+      },
+      {
+        "menuItemId": 16,
+        "name": "Artichoke Delight Pizza",
+        "pizzaSize": "medium",
+        "toppings": ["artichoke", "onion", "bellpepper"],
+        "crust": "regular"
+      },
+      {
+        "menuItemId": 17,
+        "name": "Double Cheese Pizza",
+        "pizzaSize": "medium",
+        "toppings": ["extracheese", "pepperoni"],
+        "crust": "regular"
+      },
+      {
+        "menuItemId": 18,
+        "name": "Anchovy Classic Pizza",
+        "pizzaSize": "medium",
+        "toppings": ["anchovies", "garlic", "tomato"],
+        "crust": "regular"
+      },
+      {
+        "menuItemId": 19,
+        "name": "Tomato Basil Pizza",
+        "pizzaSize": "medium",
+        "toppings": ["tomato", "garlic"],
+        "crust": "regular"
+      },
+      {
+        "menuItemId": 20,
+        "name": "Bacon Lover Pizza",
+        "pizzaSize": "medium",
+        "toppings": ["bacon", "onion"],
+        "crust": "regular"
+      },
+      {
+        "menuItemId": 21,
+        "name": "All Veggie Pizza",
+        "pizzaSize": "medium",
+        "toppings": ["bellpepper", "onion", "jalapeno", "artichoke", "tomato"],
+        "crust": "regular"
+      },
+      {
+        "menuItemId": 22,
+        "name": "Ultimate BBQ Pizza",
+        "pizzaSize": "medium",
+        "toppings": ["chicken", "bacon", "onion"],
+        "crust": "regular"
+      },
+      {
+        "menuItemId": 23,
+        "name": "Firecracker Pizza",
+        "pizzaSize": "medium",
+        "toppings": ["jalapeno", "onion", "garlic"],
+        "crust": "regular"
+      },
+      {
+        "menuItemId": 24,
+        "name": "Seafood Special Pizza",
+        "pizzaSize": "medium",
+        "toppings": ["anchovies", "garlic"],
+        "crust": "regular"
+      }
+    ],
+    "beverage": [
+      {
+        "menuItemId": 7,
+        "category": "Beverage",
+        "name": "Coca-Cola",
+        "beverageSize": "medium",
+        "ice": "regular"
+      },
+      {
+        "menuItemId": 8,
+        "category": "Beverage",
+        "name": "Lemonade",
+        "beverageSize": "medium",
+        "ice": "regular"
+      },
+      {
+        "menuItemId": 9,
+        "category": "Beverage",
+        "name": "Milkshake",
+        "beverageSize": "medium",
+        "ice": "none"
+      },
+      {
+        "menuItemId": 10,
+        "category": "Beverage",
+        "name": "Iced Coffee",
+        "beverageSize": "medium",
+        "ice": "regular"
+      },
+      {
+        "menuItemId": 11,
+        "category": "Beverage",
+        "name": "Green Tea",
+        "beverageSize": "medium",
+        "ice": "regular"
+      },
+      {
+        "menuItemId": 12,
+        "category": "Beverage",
+        "name": "Fruit Punch",
+        "beverageSize": "medium",
+        "ice": "regular"
+      },
+      {
+        "menuItemId": 25,
+        "category": "Beverage",
+        "name": "Root Beer",
+        "beverageSize": "medium",
+        "ice": "regular"
+      },
+      {
+        "menuItemId": 26,
+        "category": "Beverage",
+        "name": "Orange Juice",
+        "beverageSize": "medium",
+        "ice": "none"
+      },
+      {
+        "menuItemId": 27,
+        "category": "Beverage",
+        "name": "Smoothie",
+        "beverageSize": "medium",
+        "ice": "none"
+      },
+      {
+        "menuItemId": 28,
+        "category": "Beverage",
+        "name": "Raspberry Iced Tea",
+        "beverageSize": "medium",
+        "ice": "regular"
+      },
+      {
+        "menuItemId": 29,
+        "category": "Beverage",
+        "name": "Vanilla Shake",
+        "beverageSize": "medium",
+        "ice": "none"
+      },
+      {
+        "menuItemId": 30,
+        "category": "Beverage",
+        "name": "Cold Brew Coffee",
+        "beverageSize": "medium",
+        "ice": "regular"
+      },
+      {
+        "menuItemId": 31,
+        "category": "Beverage",
+        "name": "Mango Juice",
+        "beverageSize": "medium",
+        "ice": "none"
+      },
+      {
+        "menuItemId": 32,
+        "category": "Beverage",
+        "name": "Cherry Soda",
+        "beverageSize": "medium",
+        "ice": "regular"
+      },
+      {
+        "menuItemId": 33,
+        "category": "Beverage",
+        "name": "Herbal Tea",
+        "beverageSize": "medium",
+        "ice": "none"
+      },
+      {
+        "menuItemId": 34,
+        "category": "Beverage",
+        "name": "Grape Juice",
+        "beverageSize": "medium",
+        "ice": "none"
+      },
+      {
+        "menuItemId": 35,
+        "category": "Beverage",
+        "name": "Coconut Water",
+        "beverageSize": "medium",
+        "ice": "none"
+      },
+      {
+        "menuItemId": 36,
+        "category": "Beverage",
+        "name": "Strawberry Lemonade",
+        "beverageSize": "medium",
+        "ice": "regular"
+      }
+    ]
+  }
+}
+
+

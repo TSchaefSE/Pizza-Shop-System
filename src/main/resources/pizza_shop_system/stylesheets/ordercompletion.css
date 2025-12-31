@@ -1,0 +1,16 @@
+.order-completion-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.order-again-button {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 50px;
+    -fx-background-color: #993131;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane maxWidth="-Infinity" minWidth="-Infinity" prefHeight="244.0" prefWidth="544.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pizza_shop_system.gui.order.OrderCompletionController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="244.0" prefWidth="553.0" spacing="10.0" styleClass="order-completion-container">
+         <children>
+      
+                          <!-- Confirmation Message -->
+              <Label styleClass="order-completion-title" text="Thank you for your order! Here's your receipt:" />
+            <ScrollPane fx:id="receiptScrollPane" fitToWidth="true" styleClass="receipt-container">
+               <content>
+                  <VBox fx:id="receiptContainer" alignment="TOP_CENTER" />
+               </content></ScrollPane>
+      
+                    <!-- Action Buttons -->
+              <HBox alignment="CENTER" spacing="20">
+                  <Button fx:id="orderAgainButton" styleClass="order-again-button" text="ORDER AGAIN" />
+              </HBox>
+         </children>
+      </VBox>
+   </children>
+</StackPane>

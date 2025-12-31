@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox fx:id="navigationBar" alignment="CENTER" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="79.0" prefWidth="962.0" spacing="15" styleClass="navigation-bar" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pizza_shop_system.gui.navigation.NavigationBarController">
+
+    <!-- Back Button -->
+    <Button fx:id="buttonBack" styleClass="navButton" HBox.hgrow="ALWAYS" />
+
+    <!-- Forward Button -->
+    <Button fx:id="buttonForward" styleClass="navButton" HBox.hgrow="ALWAYS">
+        <HBox.margin>
+            <Insets />
+        </HBox.margin>
+    </Button>
+
+    <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+
+    <!-- Home Button -->
+    <Button fx:id="buttonHome" styleClass="navButton" HBox.hgrow="ALWAYS" />
+
+    <!-- Menu Button -->
+    <Button fx:id="buttonMenu" styleClass="navButton" text="MENU" HBox.hgrow="ALWAYS" />
+
+    <!-- Cart Button -->
+    <Button fx:id="buttonCart" styleClass="navButton" text="CART" HBox.hgrow="ALWAYS" />
+
+    <!-- Login Button -->
+    <!-- Button fx:id="buttonLogin" styleClass="navButton" text="LOG IN" HBox.hgrow="ALWAYS" / -->
+
+    <!-- Account Button -->
+    <Button fx:id="buttonAccount" styleClass="navButton" text="ACCOUNT" HBox.hgrow="ALWAYS" />
+
+    <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+  
+</HBox>

@@ -1,0 +1,16 @@
+.ViewTransactions Label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.view-transactions-title {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+}
+
+.view-transaction-vbox {
+    -fx-padding: 10;
+    -fx-background-color: #f2f2f2;
+    -fx-border-color: #ccc;
+    -fx-border-width: 0 0 1px 0;
+}

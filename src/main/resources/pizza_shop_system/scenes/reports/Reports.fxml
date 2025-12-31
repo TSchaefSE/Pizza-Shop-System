@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane prefHeight="444.0" prefWidth="647.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pizza_shop_system.gui.reports.ReportsController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="394.0" prefWidth="647.0" spacing="10.0">
+         <children>
+            <Label styleClass="report-title" text="Report Generator" />
+      
+                        <!-- Main Body Section -->
+            <VBox alignment="CENTER" fillWidth="false" maxWidth="-Infinity" prefHeight="417.0" prefWidth="637.0" spacing="15" styleClass="main-content">
+               <!-- Report Type Selection -->
+               <Label styleClass="report-subtitle" text="Select Report Type:" />
+               <ComboBox fx:id="timeSelectionChoiceBox" prefWidth="200.0" styleClass="report-combo-box" />
+      
+                           <!-- Date Picker for Weekly Option -->
+               <Label fx:id="weeklyStartDateLabel" styleClass="report-subtitle" text="Pick the start date of the week:" visible="false" />
+               <DatePicker fx:id="datePicker" visible="false" />
+      
+                           <!-- Generate Button -->
+               <Button fx:id="generateButton" disable="true" styleClass="report-generate-button" text="Generate Report" />
+      
+                           <!-- Report TextArea (For Displaying Reports) -->
+               <TextArea fx:id="reportTextArea" editable="false" prefHeight="300.0" prefWidth="480.0" styleClass="report-display" visible="false" wrapText="true" />
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</StackPane>

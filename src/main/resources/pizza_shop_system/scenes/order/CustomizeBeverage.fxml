@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pizza_shop_system.gui.order.CustomizeBeverageController">
+   <VBox alignment="CENTER" spacing="20">
+
+      <!-- Header -->
+      <Label styleClass="customize-title" text="Customize Drink" />
+
+      <!-- Size Section -->
+      <Label styleClass="customize-subtitle" text="Size" />
+      <HBox alignment="CENTER" spacing="20">
+         <ToggleButton fx:id="smallSizeButton" styleClass="customize-button" text="Small" />
+         <ToggleButton fx:id="mediumSizeButton" styleClass="customize-button" text="Medium" />
+         <ToggleButton fx:id="largeSizeButton" styleClass="customize-button" text="Large" />
+      </HBox>
+
+      <!-- Ice Section -->
+      <Label styleClass="customize-subtitle" text="Ice" />
+      <HBox alignment="CENTER" spacing="20">
+         <ToggleButton fx:id="iceNoneButton" styleClass="customize-button" text="None" />
+         <ToggleButton fx:id="iceLightButton" styleClass="customize-button" text="Light" />
+         <ToggleButton fx:id="iceRegularButton" styleClass="customize-button" text="Regular" />
+         <ToggleButton fx:id="iceExtraButton" styleClass="customize-button" text="Extra" />
+      </HBox>
+
+      <!-- Quantity and Add to Order Section -->
+      <HBox alignment="CENTER" spacing="20">
+         <ChoiceBox fx:id="quantityChoiceBox" prefWidth="70.0" styleClass="customize-dropdown" />
+         <Button fx:id="addToOrderButton" styleClass="customize-add-to-order-button" text="ADD TO ORDER" />
+      </HBox>
+   </VBox>
+</StackPane>

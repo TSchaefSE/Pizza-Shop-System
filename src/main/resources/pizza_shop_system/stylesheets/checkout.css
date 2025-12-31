@@ -1,0 +1,55 @@
+/* Checkout Label Styling */
+.Checkout Label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.checkout-title {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+}
+
+/* Combo Box Styling */
+.checkout-combo-box {
+    -fx-pref-width: 180px;
+    -fx-pref-height: 30px;
+    -fx-background-color: #f5f5f5;
+    -fx-border-color: #bdbdbd;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+}
+
+/* Radio Button Styling */
+.checkout-radio-button {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-padding: 5px;
+}
+
+/* Confirm Order Button */
+.checkout-confirm-order-button {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 50px;
+    -fx-background-color: #993131;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+/* TextField Styling */
+.checkout-textfield {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 30px;
+    -fx-background-color: white;
+    -fx-border-color: #bdbdbd;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+}

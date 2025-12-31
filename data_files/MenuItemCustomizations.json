@@ -1,0 +1,43 @@
+{
+  "toppings": {
+    "pepperoni": 1.00,
+    "chicken": 1.50,
+    "sausage": 1.30,
+    "extracheese": 1.00,
+    "ham": 0.00,
+    "bacon": 0.00,
+    "anchovies": 0.00,
+    "onion": 0.00,
+    "jalapeno": 0.00,
+    "garlic": 0.00,
+    "bellpepper": 0.00,
+    "tomato": 0.00,
+    "artichoke": 0.00
+  },
+
+  "pizzaSizes": {
+    "personal": 8.99,
+    "small": 9.99,
+    "medium": 10.99,
+    "large": 11.99
+  },
+
+  "crusts": {
+    "regular": 0.00,
+    "thin": 0.00,
+    "stuffed": 2.00
+  },
+
+  "beverageSizes": {
+    "small": 1.49,
+    "medium": 1.69,
+    "large": 1.99
+  },
+
+  "ice": [
+    "none",
+    "regular",
+    "light",
+    "extra"
+  ]
+}

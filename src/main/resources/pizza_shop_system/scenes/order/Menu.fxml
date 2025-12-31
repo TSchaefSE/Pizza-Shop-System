@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane styleClass="menu-stackpane" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pizza_shop_system.gui.order.MenuController">
+    <children>
+        <VBox alignment="TOP_CENTER" spacing="10.0" styleClass="menu-container">
+            <!-- Category Selection Buttons -->
+            <HBox alignment="CENTER" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="52.0" prefWidth="800.0" spacing="20.0" styleClass="menu-navigation-bar" VBox.vgrow="SOMETIMES">
+                <Button fx:id="buttonPizza" styleClass="menu-button" text="PIZZA" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="12.0" />
+               </font></Button>
+                <Button fx:id="buttonBeverage" styleClass="menu-button" text="BEVERAGE" HBox.hgrow="ALWAYS" />
+            </HBox>
+
+            <!-- Scrollable Menu Items -->
+            <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" styleClass="menu-scrollpane" vbarPolicy="AS_NEEDED">
+                <GridPane fx:id="menuContainer" alignment="TOP_CENTER" styleClass="menu-grid">
+                    <!-- Dynamic content populated via MenuController.java -->
+                </GridPane>
+            </ScrollPane>
+        </VBox>
+    </children>
+</StackPane>

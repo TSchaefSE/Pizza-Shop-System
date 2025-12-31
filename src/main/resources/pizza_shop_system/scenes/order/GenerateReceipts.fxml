@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="549.0" prefWidth="917.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pizza_shop_system.gui.order.GenerateReceiptsController">
+   <children>
+      <GridPane>
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ScrollPane fitToWidth="true" prefHeight="200.0" prefWidth="200.0">
+               <content>
+                  <VBox fx:id="ordersContainer" alignment="TOP_CENTER" maxWidth="1.7976931348623157E308" spacing="3.0">
+                     <children>
+                        <HBox>
+                           <children>
+                              <ToggleButton mnemonicParsing="false" prefHeight="25.0" prefWidth="166.0" text="ToggleButton" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </content>
+            </ScrollPane>
+            <ScrollPane fitToWidth="true" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+               <content>
+                  <VBox fx:id="receiptsContainer" alignment="TOP_CENTER" maxWidth="1.7976931348623157E308" prefHeight="226.0" prefWidth="445.0" />
+               </content>
+            </ScrollPane>
+         </children>
+      </GridPane>
+   </children>
+</StackPane>

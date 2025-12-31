@@ -1,0 +1,103 @@
+.Menu StackPane {
+    -fx-background-color: white; /* Clean white background */
+}
+
+/* Menu Categories Bar */
+.menu-navigation-bar {
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.5), 10, 0, 0, 5);
+}
+
+.Menu Button {
+    -fx-font-size: 13px;
+    -fx-font-family: "Impact";
+    -fx-text-fill: #993131;
+    -fx-background-color: white;
+    -fx-padding: 10 8;
+    -fx-cursor: hand;
+    -fx-pref-height: 50;
+}
+
+.Menu ScrollPane {
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 1px;
+    -fx-background-color: white;
+    -fx-pref-height: 2000px;
+}
+
+.Menu ScrollPane VBox {
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-padding: 10px;
+    -fx-background-color: white;
+}
+
+.Menu ScrollPane Label {
+    -fx-font-family: "Franklin Gothic Demi";
+}
+
+.Menu GridPane {
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-padding: 20;
+}
+
+/* Individual Menu Item Styling */
+.menu-item {
+    -fx-background-color: white;
+    -fx-border-color: #bdbdbd;
+    -fx-border-width: 1px;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-padding: 10;
+    -fx-spacing: 5;
+    -fx-alignment: CENTER;
+}
+
+.menu-item .item-name {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+
+.menu-item .item-price {
+    -fx-font-size: 14px;
+    -fx-text-fill: gray;
+    -fx-font-style: italic;
+}
+
+/* Add to Order Button */
+.button-add-to-order {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 50px;
+    -fx-background-color: #993131;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+/* Customize Button */
+.button-customize {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 50px;
+    -fx-background-color: #f5f5f5;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-color: #bdbdbd;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.button-add-to-order:hover {
+    -fx-background-color: #424242; /* Darker gray on hover */
+}
+
+.button-customize:hover {
+    -fx-background-color: #e0e0e0;
+}

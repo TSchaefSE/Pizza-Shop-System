@@ -1,0 +1,220 @@
+{
+    "nextOrderId": 43,
+    "orders": [
+        {
+            "date": "2025-04-27T03:32:11Z",
+            "accountId": 2,
+            "total": 15.69,
+            "orderId": 40,
+            "subtotal": 14.67,
+            "tax": 1.02,
+            "orderInformation": {
+                "orderType": "Delivery",
+                "address": "123 Hello Mate Rd"
+            },
+            "paymentInformation": {"paymentMethod": "Cash"},
+            "orderItems": [
+                {
+                    "orderItemId": 1,
+                    "price": 10.99,
+                    "name": "Cheese Pizza",
+                    "pizzaSize": "medium",
+                    "toppings": [],
+                    "menuItemId": 1,
+                    "crust": "regular"
+                },
+                {
+                    "beverageSize": "medium",
+                    "orderItemId": 2,
+                    "price": 1.69,
+                    "name": "Green Tea",
+                    "ice": "regular",
+                    "category": "Beverage",
+                    "menuItemId": 11
+                },
+                {
+                    "beverageSize": "large",
+                    "orderItemId": 3,
+                    "price": 1.99,
+                    "name": "Fruit Punch",
+                    "ice": "extra"
+                }
+            ],
+            "nextOrderItemId": 4
+        },
+        {
+            "date": "2025-04-27T03:44:25Z",
+            "accountId": 4,
+            "total": 114.14,
+            "orderId": 41,
+            "subtotal": 106.67,
+            "tax": 7.46,
+            "orderInformation": {
+                "orderType": "Delivery",
+                "address": "789 Lukewarm Ave"
+            },
+            "paymentInformation": {
+                "cvv": "321",
+                "paymentMethod": "Debit Card",
+                "cardNumber": "432558293129385",
+                "expirationDate": "10/28"
+            },
+            "orderItems": [
+                {
+                    "orderItemId": 1,
+                    "price": 12.49,
+                    "name": "BBQ Chicken Pizza",
+                    "pizzaSize": "medium",
+                    "toppings": [
+                        "chicken",
+                        "bacon"
+                    ],
+                    "menuItemId": 4,
+                    "crust": "regular"
+                },
+                {
+                    "orderItemId": 2,
+                    "price": 12.49,
+                    "name": "BBQ Chicken Pizza",
+                    "pizzaSize": "medium",
+                    "toppings": [
+                        "chicken",
+                        "bacon"
+                    ],
+                    "menuItemId": 4,
+                    "crust": "regular"
+                },
+                {
+                    "orderItemId": 3,
+                    "price": 12.49,
+                    "name": "BBQ Chicken Pizza",
+                    "pizzaSize": "medium",
+                    "toppings": [
+                        "chicken",
+                        "bacon"
+                    ],
+                    "menuItemId": 4,
+                    "crust": "regular"
+                },
+                {
+                    "orderItemId": 4,
+                    "price": 12.49,
+                    "name": "BBQ Chicken Pizza",
+                    "pizzaSize": "medium",
+                    "toppings": [
+                        "chicken",
+                        "bacon"
+                    ],
+                    "menuItemId": 4,
+                    "crust": "regular"
+                },
+                {
+                    "orderItemId": 5,
+                    "price": 12.49,
+                    "name": "BBQ Chicken Pizza",
+                    "pizzaSize": "medium",
+                    "toppings": [
+                        "chicken",
+                        "bacon"
+                    ],
+                    "menuItemId": 4,
+                    "crust": "regular"
+                },
+                {
+                    "orderItemId": 6,
+                    "price": 12.49,
+                    "name": "BBQ Chicken Pizza",
+                    "pizzaSize": "medium",
+                    "toppings": [
+                        "chicken",
+                        "bacon"
+                    ],
+                    "menuItemId": 4,
+                    "crust": "regular"
+                },
+                {
+                    "orderItemId": 7,
+                    "price": 12.49,
+                    "name": "BBQ Chicken Pizza",
+                    "pizzaSize": "medium",
+                    "toppings": [
+                        "chicken",
+                        "bacon"
+                    ],
+                    "menuItemId": 4,
+                    "crust": "regular"
+                },
+                {
+                    "orderItemId": 8,
+                    "price": 12.49,
+                    "name": "BBQ Chicken Pizza",
+                    "pizzaSize": "medium",
+                    "toppings": [
+                        "chicken",
+                        "bacon"
+                    ],
+                    "menuItemId": 4,
+                    "crust": "regular"
+                },
+                {
+                    "beverageSize": "medium",
+                    "orderItemId": 9,
+                    "price": 1.69,
+                    "name": "Milkshake",
+                    "ice": "none",
+                    "category": "Beverage",
+                    "menuItemId": 9
+                },
+                {
+                    "beverageSize": "medium",
+                    "orderItemId": 10,
+                    "price": 1.69,
+                    "name": "Lemonade",
+                    "ice": "regular",
+                    "category": "Beverage",
+                    "menuItemId": 8
+                },
+                {
+                    "beverageSize": "medium",
+                    "orderItemId": 11,
+                    "price": 1.69,
+                    "name": "Smoothie",
+                    "ice": "none",
+                    "category": "Beverage",
+                    "menuItemId": 27
+                },
+                {
+                    "beverageSize": "medium",
+                    "orderItemId": 12,
+                    "price": 1.69,
+                    "name": "Strawberry Lemonade",
+                    "ice": "regular",
+                    "category": "Beverage",
+                    "menuItemId": 36
+                }
+            ],
+            "nextOrderItemId": 13
+        },
+        {
+            "date": "2025-04-27T15:15:29Z",
+            "accountId": 2,
+            "total": 15.5,
+            "orderId": 42,
+            "subtotal": 14.49,
+            "tax": 1.01,
+            "orderInformation": {"orderType": "Pickup"},
+            "paymentInformation": {"paymentMethod": "Cash"},
+            "orderItems": [{
+                "orderItemId": 1,
+                "price": 14.49,
+                "pizzaSize": "medium",
+                "toppings": [
+                    "bacon",
+                    "chicken"
+                ],
+                "crust": "stuffed"
+            }],
+            "nextOrderItemId": 2
+        }
+    ]
+}

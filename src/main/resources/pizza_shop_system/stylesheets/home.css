@@ -1,0 +1,37 @@
+.Home Label {
+    -fx-font-family: "Franklin Gothic Heavy";
+}
+
+.Home StackPane {
+    -fx-pref-height: 500;
+    -fx-pref-width: 500;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 0);
+}
+
+.home-title {
+    -fx-font-size: 60;
+}
+
+.home-subtitle {
+    -fx-font-size: 25;
+}
+
+.Home Button {
+    -fx-pref-width: 200px;
+    -fx-font-size: 20px;
+    -fx-cursor: hand;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-font-weight: bold;
+}
+
+.home-login-button {
+    -fx-background-color: #993131;
+    -fx-text-fill: white;
+}
+
+.home-order-button {
+    -fx-background-color: #f5f5f5;
+    -fx-text-fill: black;
+    -fx-border-color: #bdbdbd;
+}

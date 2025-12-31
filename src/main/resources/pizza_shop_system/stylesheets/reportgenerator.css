@@ -1,0 +1,35 @@
+.report-title {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+}
+
+.report-subtitle {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.report-generate-button {
+    -fx-pref-width: 150px;
+    -fx-pref-height: 15px;
+    -fx-background-color: #f5f5f5;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-color: #bdbdbd;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.report-combo-box {
+    -fx-background-color: #f5f5f5;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-color: #bdbdbd;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-pref-width: 150px;
+    -fx-pref-height: 30px;
+    -fx-cursor: hand;
+}

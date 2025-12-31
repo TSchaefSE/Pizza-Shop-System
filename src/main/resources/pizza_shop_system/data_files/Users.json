@@ -1,0 +1,50 @@
+{
+    "nextUserId": 5,
+    "users": [
+        {
+            "password": "1234",
+            "account_type": "manager",
+            "address": "789 Oak St",
+            "user_id": 1,
+            "name": "Bob Smith",
+            "phone_number": "+1-678-555-1234",
+            "email": "manager@pizzashop.org"
+        },
+        {
+            "password": "1234",
+            "account_type": "customer",
+            "address": "267 Log Rd",
+            "user_id": 5,
+            "name": "Mr Anderson",
+            "phone_number": "+1-678-555-1234",
+            "email": "customer@example.com"
+        },
+        {
+            "password": "1",
+            "account_type": "customer",
+            "address": "Random",
+            "user_id": 2,
+            "name": "Simone Lemon",
+            "phone_number": "Random",
+            "email": "1"
+        },
+        {
+            "password": "2",
+            "account_type": "manager",
+            "address": "Random",
+            "user_id": 3,
+            "name": "Bob Pizza",
+            "phone_number": "Random",
+            "email": "2"
+        },
+        {
+            "password": "1234",
+            "account_type": "manager",
+            "address": "123421 Crazy Street",
+            "user_id": 4,
+            "name": "Cameron Taylor",
+            "phone_number": "777-770-3333",
+            "email": "cam@pizzashop.org"
+        }
+    ]
+}

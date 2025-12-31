@@ -1,0 +1,35 @@
+.sign-up-primary-button {
+    -fx-pref-width: 300px;
+    -fx-pref-height: 50px;
+    -fx-background-color: #993131;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.sign-up-secondary-button {
+    -fx-pref-width: 300px;
+    -fx-pref-height: 50px;
+    -fx-background-color: #f5f5f5;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-color: #bdbdbd;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.sign-up-text-field {
+    -fx-pref-width: 300;
+    -fx-pref-height: 30px;
+    -fx-background-color: white;
+    -fx-border-color: #bdbdbd;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+}

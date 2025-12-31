@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane styleClass="cart-stackpane" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pizza_shop_system.gui.order.CartController">
+    <children>
+      <VBox alignment="CENTER" maxWidth="-Infinity" prefHeight="711.0" prefWidth="736.0" spacing="10.0">
+         <children>
+            <Label styleClass="cart-title" text="Cart" />
+
+                      <!-- Scrollable Order Items -->
+                <ScrollPane fx:id="cartItemsScrollPane" maxWidth="1.7976931348623157E308" prefHeight="408.0" prefWidth="544.0" styleClass="cart-scrollpane">
+                    <content>
+                        <VBox fx:id="cartItemsVBox" spacing="10.0" styleClass="order-container">
+                     <children>
+                        <VBox VBox.vgrow="SOMETIMES">
+                           <children>
+                              <HBox prefHeight="24.0">
+                                 <children>
+                                    <Label text="Super long pizza name that does not fit unless this grows" HBox.hgrow="SOMETIMES" />
+                                    <Region prefHeight="67.0" prefWidth="200.0" />
+                                    <Label layoutX="10.0" layoutY="10.0" text="[Price]" />
+                                    <Button mnemonicParsing="false" text="Button" />
+                                    <Button mnemonicParsing="false" text="Button" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </VBox>
+                    </content>
+                </ScrollPane>
+            <GridPane alignment="CENTER" styleClass="cart-totals-container">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="708.0" minWidth="10.0" prefWidth="655.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="358.0" minWidth="10.0" prefWidth="81.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <HBox alignment="CENTER_RIGHT" GridPane.hgrow="ALWAYS">
+                     <children>
+                              <Label alignment="CENTER_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="cart-label" text="Sub Total:" HBox.hgrow="NEVER" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_RIGHT" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1">
+                     <children>
+                              <Label alignment="CENTER_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="cart-label" text="Tax:" HBox.hgrow="NEVER" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_RIGHT" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2">
+                     <children>
+                              <Label alignment="CENTER_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="cart-label" text="Total:" HBox.hgrow="NEVER" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS">
+                     <children>
+                              <Label fx:id="subTotalLabel" alignment="CENTER_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="cart-value" text="+$16.98" HBox.hgrow="SOMETIMES" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1">
+                     <children>
+                              <Label fx:id="taxLabel" alignment="CENTER_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="17.0" styleClass="cart-value" text="+1.70" HBox.hgrow="SOMETIMES" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2">
+                     <children>
+                              <Label fx:id="totalLabel" alignment="CENTER_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="cart-total-value" text="+$18.68" HBox.hgrow="SOMETIMES" />
+                     </children>
+                  </HBox>
+               </children>
+            </GridPane>
+
+                      <!-- Checkout Button -->
+                <Button fx:id="buttonCheckout" prefHeight="40.0" prefWidth="200.0" styleClass="cart-checkout-button" text="CHECKOUT" />
+         </children>
+      </VBox>
+    </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</StackPane>

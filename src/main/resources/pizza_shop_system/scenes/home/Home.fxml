@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane prefHeight="843.0" prefWidth="944.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pizza_shop_system.gui.home.HomeController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="636.0" prefWidth="944.0">
+         <children>
+            <Label styleClass="home-title" text="Welcome to Bob's Pizza Shop!">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="58.0" />
+               </font>
+            </Label>
+            <Region prefHeight="5.0" prefWidth="944.0" />
+            <Label styleClass="home-subtitle" text="Delicious pizzas, beverages, and desserts await you.">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Region prefHeight="42.0" prefWidth="944.0" />
+      
+                  <!-- Image Placeholder -->
+            <ImageView fx:id="logoView" fitHeight="311.0" fitWidth="311.0" styleClass="home-logo" />
+            <Region prefHeight="39.0" prefWidth="944.0" />
+      
+            <Button fx:id="buttonLogin" prefHeight="39.0" prefWidth="112.0" styleClass="home-login-button" text="Log In">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Region prefHeight="7.0" prefWidth="944.0" />
+            <Button fx:id="orderButton" layoutX="426.0" layoutY="550.0" styleClass="home-order-button" text="Order Now">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</StackPane>

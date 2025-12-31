@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pizza_shop_system.gui.order.CustomizePizzaController">
+   <VBox alignment="CENTER" prefHeight="489.0" prefWidth="755.0" spacing="15">
+      <!-- Header -->
+      <Label styleClass="customize-title" text="Customize Pizza" />
+
+      <!-- Size Section -->
+      <VBox alignment="CENTER" maxWidth="150" styleClass="customize-subtitle">
+         <Label styleClass="customize-subtitle" text="Size" />
+      </VBox>
+      <HBox alignment="CENTER" spacing="20">
+         <ToggleButton fx:id="personalButton" mnemonicParsing="false" styleClass="customize-button" text="Personal" />
+         <ToggleButton fx:id="smallButton" layoutX="283.0" layoutY="10.0" mnemonicParsing="false" styleClass="customize-button" text="Small" />
+         <ToggleButton fx:id="mediumButton" layoutX="319.0" layoutY="10.0" mnemonicParsing="false" styleClass="customize-button" text="Medium" />
+         <ToggleButton fx:id="largeButton" layoutX="355.0" layoutY="10.0" mnemonicParsing="false" styleClass="customize-button" text="Large" />
+      </HBox>
+
+      <!-- Crust Options -->
+      <VBox alignment="CENTER" maxWidth="150">
+         <Label styleClass="customize-subtitle" text="Crusts" />
+      </VBox>
+      <HBox alignment="CENTER" spacing="20">
+         <ToggleButton fx:id="regularButton" mnemonicParsing="false" styleClass="customize-button" text="Regular" />
+         <ToggleButton fx:id="thinButton" layoutX="281.0" layoutY="10.0" mnemonicParsing="false" styleClass="customize-button" text="Thin" />
+         <ToggleButton fx:id="stuffedButton" layoutX="319.0" layoutY="10.0" mnemonicParsing="false" styleClass="customize-button" text="Stuffed" />
+      </HBox>
+
+      <!-- Toppings Section -->
+      <Label styleClass="customize-subtitle" text="Select toppings (Up to 4)" />
+      <HBox alignment="CENTER" VBox.vgrow="NEVER">
+         <GridPane fx:id="toppingsContainer" alignment="CENTER" hgap="20" vgap="10">
+            <columnConstraints>
+               <ColumnConstraints />
+               <ColumnConstraints />
+               <ColumnConstraints />
+            </columnConstraints>
+            <rowConstraints>
+               <RowConstraints />
+               <RowConstraints />
+            </rowConstraints>
+         </GridPane>
+      </HBox>
+
+      <!-- Quantity and Add to Order Section -->
+      <HBox alignment="CENTER" spacing="20">
+         <ChoiceBox fx:id="quantityChoiceBox" prefWidth="70.0" styleClass="customize-dropdown" />
+         <Button fx:id="addToOrderButton" styleClass="customize-add-to-order-button" text="ADD TO ORDER" />
+      </HBox>
+   </VBox>
+</StackPane>
