@@ -8,6 +8,10 @@ desktop application.
 My contributions focused primarily on backend order processing, application state
 correctness, and dynamic UI integration (including complex UI workflows such as the pizza customization screen).
 
+This was my first large-scale, multi-screen application project and is preserved
+as a portfolio artifact to illustrate early experience with backend logic,
+application state management, and system-level debugging.
+
 ---
 
 ## Tech Stack
